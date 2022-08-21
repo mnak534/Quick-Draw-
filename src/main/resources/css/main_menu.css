@@ -1,0 +1,32 @@
+.root {
+	-fx-background-color: "#ebd234";
+}
+
+#gameStartButton {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #34aeeb 0%, #34aeeb 100%),
+        #7ecff7,
+        #7ecff7,
+        radial-gradient(center 50% 50%, radius 100%, #66c9fa, #66c9fa);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#gameStartButton:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #34aeeb 0%, #34aeeb 100%),
+        #7ecff7,
+        #7ecff7,
+        radial-gradient(center 50% 50%, radius 100%, #66c9fa, #66c9fa);
+}
+#gameStartButton:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+#gameStartButton Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , "#ebd234" , 0,0,0,2 );
+}

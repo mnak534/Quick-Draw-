@@ -1,0 +1,47 @@
+
+.button {
+    -fx-padding: 8 10 10 10;
+    -fx-background-insets: 0,0 0 3 0, 0 0 3 0, 0 0 4 0;
+    -fx-background-radius: 7;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #34aeeb 0%, #34aeeb 100%),
+        #7ecff7,
+        #7ecff7,
+        radial-gradient(center 50% 50%, radius 100%, #66c9fa, #66c9fa);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+}
+.button :hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #34aeeb 0%, #34aeeb 100%),
+        #7ecff7,
+        #7ecff7,
+        radial-gradient(center 50% 50%, radius 100%, #66c9fa, #66c9fa);
+}
+.button :pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+.button Text {
+    -fx-fill: white;
+    -fx-effect: dropshadow( gaussian , "#ebd234" , 0,0,0,2 );
+}
+
+.vbox {
+	-fx-background-color: "#ebd234";
+}
+
+.list-cell:filled:selected:focused,
+.list-cell:filled:selected,
+.list-cell:even,
+.list-cell:odd {
+  -fx-background-color: "#ebd234";
+  -fx-text-fill: "WHITE";
+  -fx-font-size: 15.0;
+  -fx-font-family: "Corbel";
+  -fx-font-weight: bold;
+}
+
+.list-view {
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
